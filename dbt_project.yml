@@ -1,0 +1,15 @@
+name: 'greenandcoop_project'
+version: '1.0.0'
+
+profile: 'greenandcoop_project'
+
+model-paths: ["greenandcoop_project/models"]
+analysis-paths: ["greenandcoop_project/analyses"]
+test-paths: ["greenandcoop_project/tests"]
+seed-paths: ["greenandcoop_project/seeds"]
+macro-paths: ["greenandcoop_project/macros"]
+snapshot-paths: ["greenandcoop_project/snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"

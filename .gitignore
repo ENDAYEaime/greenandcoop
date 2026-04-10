@@ -13,3 +13,7 @@ venv/
 # Virtual environments and local runtime artifacts
 dbt-env/
 logs/
+
+# dbt (projet à la racine du dépôt)
+target/
+dbt_packages/
