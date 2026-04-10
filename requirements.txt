@@ -1,0 +1,3 @@
+# Environnement dbt (aligné sur le venv local). Adapter si besoin.
+dbt-core==1.11.7
+dbt-postgres==1.10.0
