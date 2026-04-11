@@ -17,7 +17,7 @@ select
     null::float as cloudiness_pct,
     null::text as weather_description,
     'weather_underground' as source_system
-from {{ ref('stg_meteo_test') }}
+from {{ ref("stg_meteo_test") }}
 
 union all
 
@@ -40,7 +40,7 @@ select
     null::float as cloudiness_pct,
     null::text as weather_description,
     'weather_underground' as source_system
-from {{ ref('stg_meteo_station_3') }}
+from {{ ref("stg_meteo_station_3") }}
 
 union all
 
@@ -63,4 +63,4 @@ select
     cloudiness_pct,
     weather_description,
     source_system
-from {{ ref('stg_meteo_station_2_observations') }}
+from {{ ref("stg_meteo_station_2_observations") }}
